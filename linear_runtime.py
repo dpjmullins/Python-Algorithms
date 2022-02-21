@@ -34,3 +34,33 @@ def findMax( list1 ):
             max1 = i
 
     return(max1)
+
+
+def sumList( list1 ):
+    """
+    Function to find the sum of an array
+    """
+
+    ## Initialise a variable to hold the sum
+    sumOfList = 0
+
+    for i in list1:
+        ## increment sum variable
+        sumOfList += i
+
+    return(sumOfList)
+
+def sumSquare( n ):
+    """
+    Return the sum of squares of the first n natural numbers
+
+    n - maximum n
+    """
+
+    output1 = 0
+
+    for i in range(1,n+1):
+        output1 += (i*i)
+
+    return(output1)
+    
