@@ -1,6 +1,8 @@
 # Python-Algorithms
 
-Functions for study of time complexity and big O notation in algorithms in Python
+This repository contains functions coded for the study of time complexity and big O notation in algorithms in Python.
+
+It also contains some general coding problems.
 
 ## Time complexity types covered so far
 
